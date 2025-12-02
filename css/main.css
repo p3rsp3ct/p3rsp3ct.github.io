@@ -1,0 +1,41 @@
+body {
+
+	text-align: center;
+	color: #65F527;
+	background-color: black;
+}
+
+table {
+  width: 80%; /* Makes the table span the full width of its container */
+  border-collapse: collapse; /* Collapses borders into a single border */
+}
+
+th, td {
+  border: 1px solid #dddddd; /* Adds a border to cells */
+  text-align: center;
+  padding: 8px;
+}
+
+th.column1 {
+  width: 30%;
+  background-color: #65F527;
+  color: black; /* Sets a specific width for the first column */
+}
+
+th.column2 {
+  width: 70%; 
+  background-color: #65F527;
+  color: black;/* Sets a specific width for the second column */
+}
+
+.centerTable { margin: 0px auto; }
+
+ footer {
+
+ 	text-align: center;
+ }
+
+a { 
+
+  color: black;
+}
